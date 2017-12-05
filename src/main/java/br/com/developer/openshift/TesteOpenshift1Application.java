@@ -22,9 +22,9 @@ public class TesteOpenshift1Application {
 	
 	private static Integer count = 0;
 	
-	@GetMapping("redis")
+	@GetMapping("redis/{id}")
 	public String testeRedis(@PathVariable("id") String id){
-		return "Redis : " + id + " : CACHE : " + count++;
+		return "Redis : " + id + " : CACHE : " + (count++);
 	}
 	
 	@GetMapping("save")
