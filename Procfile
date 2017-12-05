@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* br.com.developer.openshift.TesteOpenshift1Application
+web: java -Dserver.port=$PORT -war seu-projeto/target/*.war
