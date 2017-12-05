@@ -8,7 +8,9 @@ spring:
           WRITE_DATES_AS_TIMESTAMPS: false
           WRITE_DURATIONS_AS_TIMESTAMPS: false
   data:
+  
     # MONGO DB
+        
     mongodb:
 #      host: ds129146.mlab.com
 #      port: 29146
@@ -16,3 +18,7 @@ spring:
 #      username: teste
       
       uri: mongodb://teste:naumsei01@ds129146.mlab.com:29146/base-teste
+      
+redis: 
+  url: redis-19006.c8.us-east-1-2.ec2.cloud.redislabs.com #127.0.0.1
+  port: 19006 #6379
