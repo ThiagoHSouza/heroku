@@ -15,6 +15,6 @@ public class TesteOpenshift1Application {
 	
 	@GetMapping("/")
 	public String teste(){
-		return "HelloWorld";
+		return "HelloWorld 2";
 	}
 }
