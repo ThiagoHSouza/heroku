@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -war heroku/target/*.war
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* 
