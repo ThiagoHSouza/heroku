@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar heroku/target/*.jar
+web: java -Dserver.port=$PORT -war heroku/target/*.war
