@@ -15,4 +15,4 @@ spring:
 #      password: 123456
 #      username: teste
       
-      uri: mongodb://teste:123456@ds129146.mlab.com:29146/base-teste
+      uri: mongodb://teste:naumsei01@ds129146.mlab.com:29146/base-teste
