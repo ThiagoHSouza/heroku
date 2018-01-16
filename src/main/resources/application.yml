@@ -14,8 +14,6 @@ spring:
     mongodb:
 #      host: ds129146.mlab.com
 #      port: 29146
-#      password: 123456
-#      username: teste
       
       uri: mongodb://***:***@ds129146.mlab.com:29146/base-teste
   redis: 
