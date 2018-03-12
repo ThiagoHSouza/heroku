@@ -29,10 +29,9 @@ public class TesteOpenshift1Application {
 		return "Redis : " + id + " : CACHE : " + (count++);
 	}
 	
-	@GetMapping("save")
-	public String save(){
-		rep.save(new Pessoa("TESTE"));
-		return "OK";
+	@GetMapping("save/{text}")
+	public Pessoa save((@PathVariable("text") String text){
+		return rep.save(new Pessoa(text));
 	}
 	
 	@GetMapping("get")
