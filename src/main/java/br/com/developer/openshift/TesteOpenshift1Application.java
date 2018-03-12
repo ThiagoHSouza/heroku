@@ -31,7 +31,7 @@ public class TesteOpenshift1Application {
 	
 	@GetMapping("save/{text}")
 	public Pessoa save((@PathVariable("text") String text){
-		return rep.save(new Pessoa(text));
+		return rep.save(new Pessoa(text)); 
 	}
 	
 	@GetMapping("get")
