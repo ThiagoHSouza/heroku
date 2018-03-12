@@ -15,7 +15,7 @@ spring:
 #      host: ds129146.mlab.com
 #      port: 29146
       
-      uri: mongodb://***:***@ds129146.mlab.com:29146/base-teste
+      uri: mongodb://teste:naumsei01@ds129146.mlab.com:29146/base-teste
   redis: 
     url: redis-19006.c8.us-east-1-2.ec2.cloud.redislabs.com #127.0.0.1
     port: 19006 #6379
